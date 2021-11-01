@@ -1,0 +1,10 @@
+.AppHero {
+  @extend .centered-container;
+  @include uniform-sides-padded-container(2em);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+  figure {
+    background: var(--grey);
+  }
+}

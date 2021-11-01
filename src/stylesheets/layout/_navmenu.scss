@@ -1,0 +1,4 @@
+.AppNav {
+  color: var(--grey);
+  @include flex-container(0.5em, row);
+}

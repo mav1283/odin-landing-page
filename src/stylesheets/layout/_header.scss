@@ -1,0 +1,9 @@
+.AppHeader {
+  .top {
+    @extend .centered-container;
+    @include two-sides-padded-container(1em, 2em);
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+  background: var(--primary);
+}
